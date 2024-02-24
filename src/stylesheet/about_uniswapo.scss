@@ -1,0 +1,75 @@
+.uniswapo-section{
+    width: 100%;
+    height: 80vh;
+    // background-color: rgba(127, 255, 212, 0.343);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.uniswapo-section .a-heading{
+    width: 100%;
+    height: 13vh;
+    // background-color: aquamarine;
+}
+
+.uniswapo-section .a-heading h1{
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 15vw;
+    font-weight: 700;
+}
+
+.a-heading h1 span{
+    color: #b5e83e;
+    font-family: 'Kaushan Script', sans-serif;
+}
+
+.a-heading img{
+    width: 25vw;
+    height: 15vh;
+    margin: 0;
+    transform: translate(51vw, -6vh);
+}
+
+.uniswapo-section .main-content{
+    width: 100%;
+    height: 60vh;
+    // background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.uniswapo-section .main-content .left-side{
+    width: 30vw;
+    height: 50vh;
+    // background-color: azure;
+    object-fit: cover;
+    overflow: hidden;
+    box-shadow: 20px 20px 0px 0px  rgba(194, 236, 98, 0.922);
+}
+
+.uniswapo-section .left-side img{
+    width: 30vw;
+    height: 50vh;
+}
+
+.uniswapo-section .main-content .right-side{
+    width: 55vw;
+    height: 50vh;
+    // background-color: azure;
+}
+
+.uniswapo-section .right-side h2{
+    font-size: 1.5vw;
+}
+
+.uniswapo-section .right-side p{
+    padding-left: 4vw;
+    font-size: 1.1vw;
+}
+

@@ -1,0 +1,52 @@
+.slogan{
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-evenly;
+    width: 100%;
+    min-height: 10vh;
+    // padding: 8vw 0;
+    position: relative;
+    // background-color: aquamarine;
+    // font-size: 4vw;
+}
+
+.moving-txt{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.moving-txt::-webkit-scrollbar {
+    display: none;
+}
+.slogan .moving-txt .content{
+    white-space: nowrap;
+    display: inline-block;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.slogan .moving-txt h1 {
+    font-size: 7.5vw;
+    display: inline-block;
+}
+
+#circle{
+    width: 8vh;
+    height: 4vw;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #b5e83e;
+    margin: 0.5vw 2vw;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,125 @@
+.contact-section {
+  width: 100%;
+  height: 100vh;
+  // background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.contact-head {
+  width: 100%;
+  height: 10vh;
+  // background-color: aliceblue;
+}
+.contact-head h1 {
+  font-size: 5vw;
+  font-weight: 700;
+  margin: 0;
+  // color: black;
+  text-align: center;
+}
+
+.contact-head h1 span {
+  color: #b5e83e;
+  font-family: "Kaushan Script", sans-serif;
+}
+
+.contactf-wrapper {
+  width: 100%;
+  height: 75vh;
+//   background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-left-side {
+  width: 30vw;
+  height: 50vh;
+  // background-color: aquamarine;
+  object-fit: cover;
+  overflow: hidden;
+  box-shadow: 20px 20px 0px 0px rgba(194, 236, 98, 0.922);
+}
+.contact-left-side img{
+  width: 30vw;
+  height: 50vh;
+}
+.contact-right-side {
+  width: 50vw;
+  height: 60vh;
+//   background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.contact-right-side .get-in-head {
+  width: 100%;
+  height: 7vh;
+//   background-color: blue;
+}
+
+.get-in-head h1 {
+  font-size: 2.8vw;
+  margin-left: 2vw;
+}
+
+.contact-right-side .contact-form {
+  width: 100%;
+  height: 50vh;
+//   background-color: blue;
+  padding: 0px 40px;
+}
+
+.contact-form label{
+    font-size: 1.5vw;
+    padding: 3px 10px;
+}
+.contact-form input,
+.contact-form textarea{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #b5e83e;
+    color: white;
+    font-size: 1.2vw;
+    padding: 3px 10px;
+}
+.contact-form input{
+  width: 30vw;
+}
+
+.contact-form button{
+    margin-top: 18px;
+    width: 11vw;
+    padding: 5px;
+    height: 5vh;
+    background-color: #c2ec62;
+    cursor: pointer;
+    font-size: 1vw;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 5px 5px 0px 2px  rgba(194, 236, 98, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form button i{
+    display: none;
+    font-size: 1.4vw;
+    margin: 2px;
+}
+
+.contact-form button:hover{
+    background-color: #b5e83e;
+    width: 12vw;
+    transition:0.3s linear;
+}
+
+.contact-form button:hover i{
+    display: inline-block;
+}

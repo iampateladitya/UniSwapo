@@ -1,0 +1,82 @@
+.feedback-container{
+    width: 100%;
+    min-height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.feedback-head{
+    width: 100%;
+    height: 10vh;
+    // background-color: #0c0d0b;
+} 
+.feedback-head h1{
+    font-size: 5vw;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+}
+.feedback-head h1 span{
+    // background-color: #0c0d0b;
+    // border-radius: 20px;
+    color: #b5e83e;
+    font-family: 'Kaushan Script', sans-serif;
+}
+
+.feedback-head img{
+    width: 42vw;
+    height: 15vh;
+    margin: 0;
+    transform: translate(7vw, -5vh);
+}
+
+.feedbacks{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedbacks .feedback-wrapper{
+    width: 80vw;
+    min-height: 80vh;
+    background-color: #b5e83e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.feedback-wrapper .feedback-card{
+    width: 18vw;
+    height: 17vh;
+    background-color: #0c0d0b;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.feedback-card:nth-child(3),
+.feedback-card:nth-child(5),
+.feedback-card:nth-child(7),
+.feedback-card:nth-child(11){
+    width: 25vw;
+    height: 17vh;
+}
+
+.feedback-card img{
+    width: 18vw;
+    height: 17vh;
+}
+.feedback-card:nth-child(3) img,
+.feedback-card:nth-child(5) img,
+.feedback-card:nth-child(7) img,
+.feedback-card:nth-child(11) img{
+    width: 25vw;
+    height: 17vh;
+}
